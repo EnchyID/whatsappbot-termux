@@ -1,4 +1,4 @@
-# MessageType - Buttons
+# Buttons Message
 ``` ts
 sock.sendMessage(id, {
     text: "This is my text!",
