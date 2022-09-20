@@ -1,0 +1,42 @@
+{
+  "name": "whatsappbot-termux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "FrogasQ",
+  "license": "ISC",
+  "dependencies": {
+    "@adiwajshing/baileys": "^4.4.0",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "axios": "^0.27.2",
+    "bandcamp-scraper": "^1.5.0",
+    "brainly-scraper": "^1.0.3",
+    "brainly-scraper-v2": "^2.0.13",
+    "csv-parse": "^5.3.0",
+    "csv-string": "^4.1.0",
+    "fs": "^0.0.1-security",
+    "github-scraper": "^7.0.1",
+    "google": "^2.1.0",
+    "google-play-scraper": "^9.1.1",
+    "google-scraper": "^1.1.2",
+    "google-search-scraper": "^0.1.0",
+    "hxz-api": "^1.0.1",
+    "jsearch": "^1.0.0",
+    "link-preview-js": "^2.1.19",
+    "mongoose": "^6.5.0",
+    "mysql": "^2.18.1",
+    "node-duckduckgo": "^2.0.17",
+    "node-json-db": "^1.6.0",
+    "pino": "^8.3.0",
+    "qrcode-terminal": "^0.12.0",
+    "scraper": "^0.0.9",
+    "simple-json-db": "^2.0.0",
+    "translate-google": "^1.5.0",
+    "wikipedia": "^1.1.9",
+    "yt-search": "^2.10.3",
+    "ytdl-core": "^4.11.0"
+  }
+}
