@@ -29,8 +29,22 @@ sock.sendMessage(id, {
             description: "This is my description section row 1"
         }, {
             title: "Section Row 2",
-            rowId: "1",
+            rowId: "2",
             description: "This is my description section row 2"
+        }, {
+        title: "Menu Section 2",
+        rows: [{
+            title: "Section Row 1",
+            rowId: "1",
+            description: "This is my description section row 1"
+        }, {
+            title: "Section Row 2",
+            rowId: "2",
+            description: "This is my description section row 2"
+        }, {
+            title: "Section Row 3",
+            rowId: "3",
+            description: "This is my description section row 3"
         }]
     }]
 });
