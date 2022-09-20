@@ -31,7 +31,8 @@ sock.sendMessage(id, {
             title: "Section Row 2",
             rowId: "2",
             description: "This is my description section row 2"
-        }, {
+        }]
+    }, {
         title: "Menu Section 2",
         rows: [{
             title: "Section Row 1",
