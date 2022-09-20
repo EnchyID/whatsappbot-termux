@@ -8,7 +8,7 @@ module.exports = async(chat) => {
             command = msg.message.conversation;
         }
         if(msg.message["buttonsResponseMessage"]){
-            command = msg.message.buttonsResponseMessage.selectedDisplayText;
+            command = msg.message.buttonsResponseMessage.selectedButtonId;
         }
         if(msg.message["listResponseMessage"]){
             command = msg.message.listResponseMessage.title;
